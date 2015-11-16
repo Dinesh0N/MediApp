@@ -32,7 +32,7 @@ public class Bienvenida extends AppCompatActivity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(Bienvenida.this, RegistroPacientes.class);
+                Intent i = new Intent(Bienvenida.this, InicioSesion.class);
                 startActivity(i);
 
                 // close this activity
