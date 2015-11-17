@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_antecedentes_familiares"
+    tools:context="com.qiqeapps.mediapp.AntecedentesFamiliares"
+    style="@style/fondoApp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView5" >
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Llene los campos correspondientes"
+                android:id="@+id/textView21" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Si necesita registrar un nuevo familiar, oprima el boton &quot;Nuevo familiar&quot;"
+                android:id="@+id/textView22"
+                android:textColor="#ff0000" />
+
+            <EditText
+                style="@style/estiloTextEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFamiliaresNombre"
+                android:layout_weight="1"
+                android:hint="Nombre Completo"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                style="@style/estiloTextEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFamiliaresFecNacimi"
+                android:hint="Fecha de nacimiento" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Status"
+                android:id="@+id/textView23"
+                android:layout_marginTop="10dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rdioGroupFamiliares">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vivo"
+                    android:id="@+id/rdioBtnFamilVivo"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Muerto"
+                    android:id="@+id/rdiobtnFamiliMuerto"
+                    android:checked="false" />
+            </RadioGroup>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtFamiliarEnfermedades"
+                style="@style/estiloTextEditMulti"
+                android:hint="Enfermedades" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:id="@+id/btnFamiliaresRegistrar"
+                style="@style/btnLargoVerde" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nuevo familiar"
+                android:id="@+id/btnFamiliaresNuevo"
+                style="@style/btnLargoRojo"
+                android:onClick="limpiaCamposFamiliares" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

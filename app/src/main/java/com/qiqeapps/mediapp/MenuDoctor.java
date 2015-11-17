@@ -20,8 +20,8 @@ public class MenuDoctor extends AppCompatActivity {
     }
 
     //region BOTONES PRINCIPALES
-    public void btnRegistro(View v){
-        Intent i = new Intent(this, RegistroPacientes.class);
+    public void btnBuscarPaciente(View v){
+        Intent i = new Intent(this, Patologico.class);
         startActivity(i);
     }
 
@@ -31,17 +31,17 @@ public class MenuDoctor extends AppCompatActivity {
     }
 
     public void btnNoPatologico(View v){
-        Intent i = new Intent(this, RegistroPacientes.class);
+        Intent i = new Intent(this, No_Patologicos.class);
         startActivity(i);
     }
 
     public void btnFamiliares(View v){
-        Intent i = new Intent(this, RegistroPacientes.class);
+        Intent i = new Intent(this, AntecedentesFamiliares.class);
         startActivity(i);
     }
 
     public void btnGineco(View v){
-        Intent i = new Intent(this, RegistroPacientes.class);
+        Intent i = new Intent(this, GinecoObstetricos.class);
         startActivity(i);
     }
 
@@ -61,6 +61,11 @@ public class MenuDoctor extends AppCompatActivity {
     }
 
     public void btnRecetas(View v){
+        Intent i = new Intent(this, RegistroPacientes.class);
+        startActivity(i);
+    }
+
+    public void btnRegistro(View v){
         Intent i = new Intent(this, RegistroPacientes.class);
         startActivity(i);
     }

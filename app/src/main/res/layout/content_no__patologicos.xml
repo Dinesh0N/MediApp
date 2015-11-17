@@ -7,13 +7,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_patologico" tools:context="com.qiqeapps.mediapp.Patologico"
-    style="@style/fondoApp">
+    tools:showIn="@layout/activity_no__patologicos"
+    tools:context="com.qiqeapps.mediapp.No_Patologicos">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView3" >
+        android:id="@+id/scrollView4" >
 
         <LinearLayout
             android:focusable="true"
@@ -26,63 +26,42 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Llenar los campos con la informacion del paciente"
-                android:id="@+id/textView18" />
+                android:text="Llenar con la informacion proporcionada por el paciente"
+                android:id="@+id/textView19" />
 
             <EditText
-                style="@style/estiloTextEditMulti"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/txtPatEnfermedades"
-                android:layout_weight="1"
-                android:hint="Enfermedades"
-                android:maxLines="10"
-                android:lines="5"
-                android:gravity="top" />
+                android:id="@+id/txtNoPatEnfermedads"
+                style="@style/estiloTextEditMulti"
+                android:hint="Enfermedades" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView17"
-                android:text="**Especificar los antecedentes de importancia clinica, asi como su tratamiento que recibe para cada situacion comorbida."
+                android:id="@+id/textView20"
+                android:text="**Se anotara lo relacionado con el uso del tabaco, alcohol, asi como adicciones y su duracion, y de requerirse, se anotaran los antecedentes sexuales."
                 android:elegantTextHeight="false"
                 android:gravity="center|center_horizontal"
                 android:textColor="#fe0000"
                 android:layout_marginBottom="10dp" />
 
             <EditText
-                style="@style/estiloTextEditMulti"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/txtPatMedicamentos"
-                android:layout_weight="1"
-                android:hint="Medicamentos"
-                android:maxLines="10"
-                android:lines="5"
-                android:gravity="top" />
-
-            <EditText
+                android:id="@+id/txtNoPatDuracion"
                 style="@style/estiloTextEditMulti"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
-                android:ems="10"
-                android:id="@+id/txtPatEspecificaciones"
-                android:layout_weight="1"
-                android:hint="Especificaciones"
-                android:maxLines="10"
-                android:lines="5"
-                android:gravity="top" />
+                android:hint="Duracion" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Registrar"
-                android:id="@+id/btnPatRegistro"
+                android:id="@+id/btnNoPatRegistrar"
                 style="@style/btnLargoVerde" />
         </LinearLayout>
     </ScrollView>
