@@ -15,6 +15,7 @@ public class Bienvenida extends AppCompatActivity {
 
     // Splash screen timer
     private static int SPLASH_TIME_OUT = 3000;
+    //Giovani :v
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
