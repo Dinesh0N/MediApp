@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -17,12 +17,20 @@
         android:id="@+id/scrollView" >
 
         <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Datos del paciente"
+                android:id="@+id/textView5" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -67,7 +75,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:text="Sexo:"
                 android:id="@+id/textView3"
                 android:layout_marginTop="10dp" />
@@ -91,30 +99,85 @@
                     android:checked="false" />
             </RadioGroup>
 
-            <LinearLayout
-                android:orientation="vertical"
+            <EditText
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNacimiento"
+                style="@style/estiloTextEdit"
+                android:hint="Fecha de nacimiento" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="Fecha de Nacimiento"
-                    android:id="@+id/textView4"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Direccion"
+                android:id="@+id/textView4"
+                android:layout_marginTop="10dp" />
 
-                <CalendarView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/calendarView"
-                    android:clickable="true"
-                    android:contextClickable="false"
-                    android:scrollIndicators="top" />
-            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCalle"
+                style="@style/estiloTextEdit"
+                android:hint="Calle y numero" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtColonia"
+                style="@style/estiloTextEdit"
+                android:hint="Colonia" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCodigoPostal"
+                android:hint="Codigo Postal"
+                style="@style/estiloTextEdit" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCiudad"
+                android:hint="Ciudad"
+                style="@style/estiloTextEdit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Estado"
+                android:id="@+id/textView7" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerEstados"
+                style="@style/estiloTextEdit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Otros datos"
+                android:id="@+id/textView6"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtOcupacion"
+                style="@style/estiloTextEdit"
+                android:hint="Ocupacion" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:id="@+id/btnRegistraUsuario"
+                style="@style/btnLargoVerde" />
 
         </LinearLayout>
     </ScrollView>
 
-</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_patologico" tools:context="com.qiqeapps.mediapp.Patologico"
+    style="@style/fondoApp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Llenar los campos con la informacion del paciente"
+                android:id="@+id/textView18" />
+
+            <EditText
+                style="@style/estiloTextEditMulti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtPatEnfermedades"
+                android:layout_weight="1"
+                android:hint="Enfermedades"
+                android:maxLines="10"
+                android:lines="5"
+                android:gravity="top" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:text="**Especificar los antecedentes de importancia clinica, asi como su tratamiento que recibe para cada situacion comorbida."
+                android:elegantTextHeight="false"
+                android:gravity="center|center_horizontal"
+                android:textColor="#fe0000"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                style="@style/estiloTextEditMulti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtPatMedicamentos"
+                android:layout_weight="1"
+                android:hint="Medicamentos"
+                android:maxLines="10"
+                android:lines="5"
+                android:gravity="top" />
+
+            <EditText
+                style="@style/estiloTextEditMulti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtPatEspecificaciones"
+                android:layout_weight="1"
+                android:hint="Especificaciones"
+                android:maxLines="10"
+                android:lines="5"
+                android:gravity="top" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:id="@+id/btnPatRegistro"
+                style="@style/btnLargoVerde" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

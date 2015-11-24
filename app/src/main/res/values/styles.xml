@@ -25,6 +25,19 @@
         <item name="android:paddingBottom">15dp</item>
         <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="estiloTextEditMulti">
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:ems">10</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:lines">5</item>
+        <item name="android:gravity">top</item>
     </style>
 
     <style name="btnInicioSesion">
@@ -32,7 +45,35 @@
         <item name="android:paddingTop">15dp</item>
         <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_marginBottom">5dp</item>
-        <item name="android:background">#c0ffb7</item>
+        <item name="android:background">#FF7CEF65</item>
     </style>
 
+    <style name="btnLargoVerde">
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">#FF7CEF65</item>
+    </style>
+
+    <style name="btnLargoRojo">
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#f4585d</item>
+    </style>
+
+    <style name="estiloBotonesMenuPpal">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">#00ffffff</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
 </resources>

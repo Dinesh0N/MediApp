@@ -6,6 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
@@ -26,7 +27,52 @@
         <activity
             android:name=".RegistroPacientes"
             android:label="@string/title_activity_registro_pacientes"
+            android:parentActivityName=".MenuDoctor"
             android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctor" />
+        </activity>
+        <activity
+            android:name=".MenuDoctor"
+            android:label="@string/title_activity_menu_doctor"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Patologico"
+            android:label="@string/title_activity_patologico"
+            android:parentActivityName=".MenuDoctor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctor" />
+        </activity>
+        <activity
+            android:name=".No_Patologicos"
+            android:label="@string/title_activity_no__patologicos"
+            android:parentActivityName=".MenuDoctor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctor" />
+        </activity>
+        <activity
+            android:name=".AntecedentesFamiliares"
+            android:label="@string/title_activity_antecedentes_familiares"
+            android:parentActivityName=".MenuDoctor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctor" />
+        </activity>
+        <activity
+            android:name=".GinecoObstetricos"
+            android:label="@string/title_activity_gineco_obstetricos"
+            android:parentActivityName=".MenuDoctor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctor" />
         </activity>
     </application>
 

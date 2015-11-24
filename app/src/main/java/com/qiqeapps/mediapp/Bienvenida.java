@@ -12,9 +12,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class Bienvenida extends AppCompatActivity {
-
+    //  Waaaaa Doctor Quique!!!!!
     // Splash screen timer
     private static int SPLASH_TIME_OUT = 3000;
+    //Giovani :v
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,7 @@ public class Bienvenida extends AppCompatActivity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(Bienvenida.this, RegistroPacientes.class);
+                Intent i = new Intent(Bienvenida.this, InicioSesion.class);
                 startActivity(i);
 
                 // close this activity
