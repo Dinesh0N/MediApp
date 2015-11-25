@@ -2,8 +2,6 @@ package com.qiqeapps.mediapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -46,7 +44,7 @@ public class MenuDoctor extends AppCompatActivity {
     }
 
     public void btnFisica(View v){
-        Intent i = new Intent(this, RegistroPacientes.class);
+        Intent i = new Intent(this, SelectBTDev.class);
         startActivity(i);
     }
 

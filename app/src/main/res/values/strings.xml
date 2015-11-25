@@ -182,4 +182,7 @@
         <item>14</item>
         <item>15</item>
     </string-array>
+    <string name="title_activity_select_bydev">Seleccione su dispositivo </string>
+    <string name="none_paired">Ningun dispositivo pudo ser emparejado</string>
+    <string name="title_activity_explora_fisica">Exploracion Fisica</string>
 </resources>
