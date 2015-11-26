@@ -13,6 +13,7 @@ import android.view.MenuItem;
 
 public class Bienvenida extends AppCompatActivity {
     //  Waaaaa Doctor Quique!!!!!
+    // O_O
     // Splash screen timer
     private static int SPLASH_TIME_OUT = 3000;
     //Giovani :v
