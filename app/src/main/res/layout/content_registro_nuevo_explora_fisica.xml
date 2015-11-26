@@ -9,8 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.qiqeapps.mediapp.ExploraFisica"
-    tools:showIn="@layout/activity_explora_fisica">
+    tools:context=".RegistroNuevoExploraFisica"
+    tools:showIn="@layout/activity_registro_nuevo_explora_fisica">
 
     <ScrollView
         android:layout_width="match_parent"
