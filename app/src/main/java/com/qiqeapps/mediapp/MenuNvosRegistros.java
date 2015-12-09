@@ -44,7 +44,7 @@ public class MenuNvosRegistros extends AppCompatActivity {
     }
 
     public void btnRegistroNuevoExpFisica(View v){
-        Intent i = new Intent(this, SelectBTDev.class);
+        Intent i = new Intent(this, RegistroNuevoExploraFisica.class);
         startActivity(i);
     }
 

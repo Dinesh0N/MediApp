@@ -22,6 +22,34 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Seleccione su dispositivo bluetooth"
+                android:id="@+id/textView37" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="3"
+                android:rowCount="1">
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/medBtnBusqueda"
+                    android:layout_column="2"
+                    android:layout_row="0"
+                    android:src="@mipmap/identificacion"
+                    android:scaleType="fitCenter"
+                    android:background="#00ffffff"
+                    style="@style/estiloBotonesMenuPpal"
+                    android:onClick="btnRegistroNuevoInfoGral" />
+
+
+            </GridLayout>
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -35,6 +63,7 @@
                 android:id="@+id/txtExploraTemperatura"
                 style="@style/estiloTextEdit"
                 android:hint="Temperatura Corporal" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
