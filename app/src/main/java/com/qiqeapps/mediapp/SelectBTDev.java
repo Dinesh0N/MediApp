@@ -4,8 +4,6 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -95,7 +93,7 @@ public class SelectBTDev extends AppCompatActivity {
             String address = info.substring(info.length() - 17);
 
             // Make an intent to start next activity while taking an extra which is the MAC address.
-            Intent i = new Intent(SelectBTDev.this, ExploraFisica.class);
+            Intent i = new Intent(SelectBTDev.this, RegistroNuevoExploraFisica.class);
             i.putExtra(EXTRA_DEVICE_ADDRESS, address);
             startActivity(i);
             finish();
