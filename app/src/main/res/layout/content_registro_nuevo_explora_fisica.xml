@@ -27,7 +27,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Seleccione su dispositivo bluetooth"
-                android:id="@+id/textView37" />
+                android:id="@+id/textView37"
+                android:textColor="#02a03f" />
 
             <GridLayout
                 android:layout_width="match_parent"
@@ -63,6 +64,61 @@
                 android:id="@+id/txtExploraTemperatura"
                 style="@style/estiloTextEdit"
                 android:hint="Temperatura Corporal" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow>
+                    <EditText
+                        style="@style/estiloTextEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Peso"
+                        android:id="@+id/txtExploraPeso"
+                        android:layout_marginRight="10dp" />
+
+                    <EditText
+                        style="@style/estiloTextEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Talla"
+                        android:id="@+id/txtExploraTalla"
+                        android:layout_marginRight="10dp" />
+
+                    <EditText
+                        style="@style/estiloTextEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="IMC"
+                        android:id="@+id/txtExploraIMC"/>
+                </TableRow>
+            </TableLayout>
+
+            <EditText
+                style="@style/estiloTextEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtExploraOxigenacion"
+                android:layout_span="1"
+                android:hint="% Oxigeno en la sangre" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtExploraObservaciones"
+                style="@style/estiloTextEditMulti"
+                android:hint="Observaciones" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:id="@+id/btnExploraGuardar"
+                style="@style/btnLargoVerde" />
 
         </LinearLayout>
     </ScrollView>

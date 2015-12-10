@@ -187,4 +187,5 @@
     <string name="title_activity_explora_fisica">Exploracion Fisica</string>
     <string name="title_activity_menu_doctor_main">Panel de control</string>
     <string name="title_activity_menu_nvos_registros">Registros nuevos</string>
+    <string name="title_activity_registro_nuevo_consulta">Consulta Médica</string>
 </resources>

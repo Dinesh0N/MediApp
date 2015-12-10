@@ -11,7 +11,8 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!-- ******************************* Vistas Generales Bienvenida e Iniciar Sesion ***************************************-->
+
+        <!-- ******************************* Vistas Generales Bienvenida e Iniciar Sesion *************************************** -->
         <activity
             android:name=".Bienvenida"
             android:label="@string/app_name"
@@ -26,7 +27,7 @@
             android:name=".InicioSesion"
             android:label="@string/title_activity_inicio_sesion"
             android:theme="@style/AppTheme.NoActionBar" />
-        <!-- ******************************************* Nuevos Registros *******************************************************-->
+        <!-- ******************************************* Nuevos Registros ******************************************************* -->
         <activity
             android:name=".RegistroNuevoPacientes"
             android:label="@string/title_activity_registro_pacientes"
@@ -92,7 +93,7 @@
                 android:value=".MenuNvosRegistros" />
         </activity>
 
-        <!--Vistas Menu Principal del doctor-->
+        <!-- Vistas Menu Principal del doctor -->
         <activity
             android:name=".MenuDoctorMain"
             android:label="@string/title_activity_menu_doctor_main"
@@ -115,6 +116,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuDoctorMain" />
+        </activity>
+        <activity
+            android:name=".RegistroNuevoConsulta"
+            android:label="@string/title_activity_registro_nuevo_consulta"
+            android:parentActivityName=".MenuNvosRegistros"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuNvosRegistros" />
         </activity>
     </application>
 

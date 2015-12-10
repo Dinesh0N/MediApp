@@ -49,7 +49,7 @@ public class MenuNvosRegistros extends AppCompatActivity {
     }
 
     public void btnRegistroNuevaConsulta(View v){
-        Intent i = new Intent(this, RegistroNuevoPacientes.class);
+        Intent i = new Intent(this, RegistroNuevoConsulta.class);
         startActivity(i);
     }
 
