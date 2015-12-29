@@ -18,9 +18,18 @@
         android:id="@+id/scrollView8" >
 
         <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Llene los campos con la informacion proporcionada por el paciente"
+                android:id="@+id/textView38" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -34,19 +43,12 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/txtConsultaFecha"
+                android:id="@+id/txtConsultaFechaHora"
                 style="@style/estiloTextEdit"
                 android:hint="Fecha"
                 android:editable="false"
                 android:enabled="false"
                 android:focusable="false" />
-
-            <EditText
-                style="@style/estiloTextEdit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/txtConsultaHora"
-                android:hint="Hora" />
 
             <EditText
                 style="@style/estiloTextEditMulti"

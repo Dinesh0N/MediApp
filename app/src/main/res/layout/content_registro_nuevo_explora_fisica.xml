@@ -18,6 +18,8 @@
         android:id="@+id/scrollView7" >
 
         <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -26,30 +28,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Seleccione su dispositivo bluetooth"
+                android:text="Llene los campos correspondientes, temperatura corporal y puso se miden automaticamente"
                 android:id="@+id/textView37"
                 android:textColor="#02a03f" />
-
-            <GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:columnCount="3"
-                android:rowCount="1">
-
-                <ImageButton
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:id="@+id/medBtnBusqueda"
-                    android:layout_column="2"
-                    android:layout_row="0"
-                    android:src="@mipmap/identificacion"
-                    android:scaleType="fitCenter"
-                    android:background="#00ffffff"
-                    style="@style/estiloBotonesMenuPpal"
-                    android:onClick="btnRegistroNuevoInfoGral" />
-
-
-            </GridLayout>
 
             <EditText
                 android:layout_width="match_parent"
