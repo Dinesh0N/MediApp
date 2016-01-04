@@ -111,11 +111,11 @@
         <activity
             android:name=".MenuDoctorPaciente"
             android:label="@string/title_activity_menu_doctor"
-            android:parentActivityName=".MenuDoctorMain"
+            android:parentActivityName=".AtenderPaciente_BuscaRegistro"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MenuDoctorMain" />
+                android:value=".AtenderPaciente_BuscaRegistro" />
         </activity>
         <activity
             android:name=".RegistroNuevoConsulta"
@@ -125,6 +125,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.qiqeapps.mediapp.MenuNvosRegistros" />
+        </activity>
+        <activity
+            android:name=".AtenderPaciente_BuscaRegistro"
+            android:label="@string/title_activity_atender_paciente__busca_registro"
+            android:parentActivityName=".MenuDoctorMain"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctorMain" />
         </activity>
     </application>
 

@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="General"
                 android:id="@+id/textView8"
                 android:layout_gravity="center_horizontal"
@@ -58,7 +58,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Patologicos"
                 android:id="@+id/textView9"
                 android:layout_row="1"
@@ -88,7 +88,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="No Patologicos"
                 android:id="@+id/textView10"
                 android:layout_gravity="center_horizontal"
@@ -98,7 +98,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Familiares"
                 android:id="@+id/textView11"
                 android:layout_gravity="center_horizontal"
@@ -128,7 +128,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Gineco"
                 android:id="@+id/textView12"
                 android:layout_gravity="center_horizontal"
@@ -139,7 +139,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="E-Fisica"
                 android:id="@+id/textView13"
                 android:layout_gravity="center_horizontal"
@@ -169,7 +169,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Consultas"
                 android:id="@+id/textView14"
                 android:layout_gravity="center_horizontal"
@@ -179,7 +179,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="E-Clinicos"
                 android:id="@+id/textView15"
                 android:layout_gravity="center_horizontal"

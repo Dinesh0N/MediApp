@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_inicio_sesion">Iniciar Sesion</string>
     <string name="title_activity_registro_pacientes">Registrar nuevo paciente</string>
-    <string name="title_activity_menu_doctor">Menu Principal</string>
+    <string name="title_activity_menu_doctor">Atender Paciente</string>
 
     <string-array name="estados_republica">
         <item>Aguascalientes</item>
@@ -188,4 +188,5 @@
     <string name="title_activity_menu_doctor_main">Panel de control</string>
     <string name="title_activity_menu_nvos_registros">Registros nuevos</string>
     <string name="title_activity_registro_nuevo_consulta">Consulta Médica</string>
+    <string name="title_activity_atender_paciente__busca_registro">Buscar registro</string>
 </resources>

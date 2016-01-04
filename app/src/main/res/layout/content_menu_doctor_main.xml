@@ -28,7 +28,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Bienvenido"
                 android:id="@+id/txtMainBienvenido"
                 android:layout_row="0"
@@ -38,7 +38,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Nombre de doctor"
                 android:id="@+id/txtMainNombreDoc"
                 android:layout_row="0"
@@ -64,14 +64,14 @@
                 android:id="@+id/mainBtnAtenderPaciente"
                 android:src="@mipmap/tratar_paciente"
                 style="@style/estiloBotonesMenuPpal"
-                android:onClick="btnPatologico"
+                android:onClick="btnAtenderPaciente"
                 android:layout_column="1"
                 android:layout_row="1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Nuevo paciente"
                 android:id="@+id/textView8"
                 android:layout_gravity="center_horizontal"
@@ -81,7 +81,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Atender paciente"
                 android:id="@+id/textView9"
                 android:layout_row="2"
@@ -111,7 +111,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Eliminar paciente"
                 android:id="@+id/textView10"
                 android:layout_gravity="center_horizontal"
@@ -121,7 +121,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Status paciente"
                 android:id="@+id/textView11"
                 android:layout_gravity="center_horizontal"
@@ -141,7 +141,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Historial Clinico"
                 android:id="@+id/textView12"
                 android:layout_gravity="center_horizontal"
