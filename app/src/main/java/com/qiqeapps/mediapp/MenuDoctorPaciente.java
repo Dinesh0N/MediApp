@@ -20,12 +20,12 @@ public class MenuDoctorPaciente extends AppCompatActivity {
     //region BOTONES PRINCIPALES
 
     public void btnPatologico(View v){
-        Intent i = new Intent(this, RegistroNuevoPatologico.class);
+        Intent i = new Intent(this, atender_patologicos.class);
         startActivity(i);
     }
 
     public void btnNoPatologico(View v){
-        Intent i = new Intent(this, RegistroNuevoNOPatologico.class);
+        Intent i = new Intent(this, atender_nopatologicos.class);
         startActivity(i);
     }
 
@@ -40,7 +40,7 @@ public class MenuDoctorPaciente extends AppCompatActivity {
     }
 
     public void btnFisica(View v){
-        Intent i = new Intent(this, SelectBTDev.class);
+        Intent i = new Intent(this, Atender_SelectBTDev.class);
         startActivity(i);
     }
 

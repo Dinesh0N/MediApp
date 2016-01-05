@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.UUID;
 
-public class RegistroNuevoExploraFisica extends AppCompatActivity {
+public class AtenderExpFisica extends AppCompatActivity {
 
     Handler bluetoothIn;
     final int handlerState = 0;        				 //used to identify handler message
@@ -34,17 +34,19 @@ public class RegistroNuevoExploraFisica extends AppCompatActivity {
     // String for MAC address
     private static String address = null;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registro_nuevo_explora_fisica);
+        setContentView(R.layout.activity_atender_exp_fisica);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        txtPulso = (EditText) findViewById(R.id.txtExploraFrecCardiaca);
-        txtTemp = (EditText) findViewById(R.id.txtExploraTemperatura);
-        txtOxigeno = (EditText) findViewById(R.id.txtExploraOxigenacion);
+        txtPulso = (EditText) findViewById(R.id.txtAtender_FrecCardiaca);
+        txtTemp = (EditText) findViewById(R.id.txtAtender_Temperatura);
+        txtOxigeno = (EditText) findViewById(R.id.txtAtender_Oxigenacion);
 
         bluetoothIn = new Handler() {
             public void handleMessage(android.os.Message msg) {

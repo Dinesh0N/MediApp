@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.qiqeapps.mediapp.AtenderExpFisica"
+    tools:showIn="@layout/activity_atender_exp_fisica">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView13">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Llene los campos correspondientes, temperatura corporal y puso se miden automaticamente"
+                android:id="@+id/textView37"
+                android:textColor="#02a03f" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAtender_FrecCardiaca"
+                style="@style/estiloTextEdit"
+                android:hint="Frecuencia Cardiaca" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAtender_Temperatura"
+                style="@style/estiloTextEdit"
+                android:hint="Temperatura Corporal" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow>
+                    <EditText
+                        style="@style/estiloTextEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Peso"
+                        android:id="@+id/txtAtender_Peso"
+                        android:layout_marginRight="10dp" />
+
+                    <EditText
+                        style="@style/estiloTextEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Talla"
+                        android:id="@+id/txtAtender_Talla"
+                        android:layout_marginRight="10dp" />
+
+                    <EditText
+                        style="@style/estiloTextEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="IMC"
+                        android:id="@+id/txtAtender_IMC"/>
+                </TableRow>
+            </TableLayout>
+
+            <EditText
+                style="@style/estiloTextEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAtender_Oxigenacion"
+                android:layout_span="1"
+                android:hint="% Oxigeno en la sangre" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtAtender_Observaciones"
+                style="@style/estiloTextEditMulti"
+                android:hint="Observaciones" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:id="@+id/btnAtender_GuardarExpFisica"
+                style="@style/btnLargoVerde" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -10,10 +10,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".NvoRegistro_SelectBTDev"
-    tools:showIn="@layout/activity_select_btdev">
+    tools:context="com.qiqeapps.mediapp.Atender_SelectBTDev"
+    tools:showIn="@layout/activity_atender__select_btdev">
 
-    <TextView android:id="@+id/title_paired_devices"
+    <TextView android:id="@+id/title_paired_devices1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -23,7 +23,7 @@
         android:textColor="#fff"
         android:paddingLeft="5dp"
         />
-    <ListView android:id="@+id/paired_devices"
+    <ListView android:id="@+id/paired_devices1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stackFromBottom="false"
@@ -31,13 +31,13 @@
         />
 
     <TextView
-        android:id="@+id/connecting"
+        android:id="@+id/connecting1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/infoText"
+        android:id="@+id/infoText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Si no hay dispositivos en la lista, por favor enlaza tu dispositivo en la configuración de Android"
@@ -51,6 +51,5 @@
         android:gravity="center">
 
     </LinearLayout>
-
 
 </LinearLayout>

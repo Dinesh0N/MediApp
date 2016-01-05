@@ -189,4 +189,11 @@
     <string name="title_activity_menu_nvos_registros">Registros nuevos</string>
     <string name="title_activity_registro_nuevo_consulta">Consulta Médica</string>
     <string name="title_activity_atender_paciente__busca_registro">Buscar registro</string>
+    <string name="title_activity_main_elimina_registro">Eliminar paciente</string>
+    <string name="title_activity_main_modifica_status_paciente">Modificar Estado Paciente</string>
+    <string name="title_activity_visualizar_paciente_busca_registro">Buscar registro</string>
+    <string name="title_activity_atender_patologicos">Patológicos</string>
+    <string name="title_activity_atender_nopatologicos">No Patológicos</string>
+    <string name="title_activity_atender_exp_fisica">Exploración Física</string>
+    <string name="title_activity_atender__select_btdev">Elegir dispositivo</string>
 </resources>

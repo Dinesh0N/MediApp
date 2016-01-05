@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 import java.util.Set;
 
-public class SelectBTDev extends AppCompatActivity {
+public class NvoRegistro_SelectBTDev extends AppCompatActivity {
 
     // Debugging for LOGCAT
     private static final String TAG = "DeviceListActivity";
@@ -93,7 +93,7 @@ public class SelectBTDev extends AppCompatActivity {
             String address = info.substring(info.length() - 17);
 
             // Make an intent to start next activity while taking an extra which is the MAC address.
-            Intent i = new Intent(SelectBTDev.this, RegistroNuevoExploraFisica.class);
+            Intent i = new Intent(NvoRegistro_SelectBTDev.this, RegistroNuevoExploraFisica.class);
             i.putExtra(EXTRA_DEVICE_ADDRESS, address);
             startActivity(i);
             finish();

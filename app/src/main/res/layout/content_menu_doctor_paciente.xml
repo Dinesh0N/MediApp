@@ -47,7 +47,7 @@
                 android:id="@+id/medBtnPatologico"
                 android:src="@mipmap/patologico"
                 style="@style/estiloBotonesMenuPpal"
-                android:onClick="btnRegistroNvoPatologico"
+                android:onClick="btnPatologico"
                 android:layout_column="0"
                 android:layout_row="1" />
 
@@ -57,7 +57,7 @@
                 android:id="@+id/medBtnNoPatolog"
                 android:src="@mipmap/no_patologico"
                 style="@style/estiloBotonesMenuPpal"
-                android:onClick="btnRegistroNuevoNoPatologico"
+                android:onClick="btnNoPatologico"
                 android:layout_column="1"
                 android:layout_row="1" />
 
@@ -89,7 +89,7 @@
                 android:src="@mipmap/exploracion_fisica"
                 android:layout_column="0"
                 android:layout_row="3"
-                android:onClick="btnRegistroNuevoExpFisica" />
+                android:onClick="btnFisica" />
 
             <ImageButton
                 android:layout_width="140dp"

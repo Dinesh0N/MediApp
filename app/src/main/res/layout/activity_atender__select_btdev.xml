@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".NvoRegistro_SelectBTDev"
+    tools:context="com.qiqeapps.mediapp.Atender_SelectBTDev"
     style="@style/fondoApp">
 
     <android.support.design.widget.AppBarLayout
@@ -22,6 +22,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_select_btdev" />
+    <include layout="@layout/content_atender__select_btdev" />
 
 </android.support.design.widget.CoordinatorLayout>

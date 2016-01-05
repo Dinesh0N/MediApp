@@ -10,8 +10,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.qiqeapps.mediapp.AtenderPaciente_BuscaRegistro"
-    tools:showIn="@layout/activity_atender_paciente__busca_registro">
+    tools:context="com.qiqeapps.mediapp.VisualizarPacienteBuscaRegistro"
+    tools:showIn="@layout/activity_visualizar_paciente_busca_registro"
+    style="@style/fondoApp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,6 +38,6 @@
         android:id="@+id/btnBuscarNumRegistro"
         style="@style/btnLargoVerde"
         android:nestedScrollingEnabled="false"
-        android:onClick="buscarRegistroPaciente"
         android:layout_marginTop="10dp" />
+
 </LinearLayout>

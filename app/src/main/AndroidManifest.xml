@@ -74,7 +74,7 @@
                 android:value=".MenuNvosRegistros" />
         </activity>
         <activity
-            android:name=".SelectBTDev"
+            android:name=".NvoRegistro_SelectBTDev"
             android:label="@string/title_activity_select_bydev"
             android:noHistory="true"
             android:parentActivityName=".MenuNvosRegistros"
@@ -134,6 +134,69 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.qiqeapps.mediapp.MenuDoctorMain" />
+        </activity>
+        <activity
+            android:name=".MainEliminaRegistro"
+            android:label="@string/title_activity_main_elimina_registro"
+            android:parentActivityName=".MenuDoctorMain"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctorMain" />
+        </activity>
+        <activity
+            android:name=".MainModificaStatusPaciente"
+            android:label="@string/title_activity_main_modifica_status_paciente"
+            android:parentActivityName=".MenuDoctorMain"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctorMain" />
+        </activity>
+        <activity
+            android:name=".VisualizarPacienteBuscaRegistro"
+            android:label="@string/title_activity_visualizar_paciente_busca_registro"
+            android:parentActivityName=".MenuDoctorMain"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctorMain" />
+        </activity>
+        <activity
+            android:name=".atender_patologicos"
+            android:label="@string/title_activity_atender_patologicos"
+            android:parentActivityName=".MenuDoctorPaciente"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctorPaciente" />
+        </activity>
+        <activity
+            android:name=".atender_nopatologicos"
+            android:label="@string/title_activity_atender_nopatologicos"
+            android:parentActivityName=".MenuDoctorPaciente"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctorPaciente" />
+        </activity>
+        <activity
+            android:name=".AtenderExpFisica"
+            android:label="@string/title_activity_atender_exp_fisica"
+            android:parentActivityName=".Atender_SelectBTDev"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.Atender_SelectBTDev" />
+        </activity>
+        <activity
+            android:name=".Atender_SelectBTDev"
+            android:label="@string/title_activity_atender__select_btdev"
+            android:parentActivityName=".MenuDoctorPaciente"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctorPaciente" />
         </activity>
     </application>
 

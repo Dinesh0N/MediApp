@@ -29,6 +29,21 @@ public class MenuDoctorMain extends AppCompatActivity {
         Intent i = new Intent(this, AtenderPaciente_BuscaRegistro.class);
         startActivity(i);
     }
+
+    public void btnEliminaPaciente(View v){
+        Intent i = new Intent(this, MainEliminaRegistro.class);
+        startActivity(i);
+    }
+
+    public void btnActualizaStatusPaciente(View v){
+        Intent i = new Intent(this, MainModificaStatusPaciente.class);
+        startActivity(i);
+    }
+
+    public void btnVisualizaInfoPaciente(View v){
+        Intent i = new Intent(this, VisualizarPacienteBuscaRegistro.class);
+        startActivity(i);
+    }
     //endregion
 
 }
