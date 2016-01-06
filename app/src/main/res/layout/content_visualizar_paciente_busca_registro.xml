@@ -26,7 +26,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txtBuscarNumRegistro"
+        android:id="@+id/txtVisualizarBuscarNumRegistro"
         style="@style/estiloTextEdit"
         android:hint="No. de registro"
         android:inputType="number" />
@@ -35,9 +35,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Buscar"
-        android:id="@+id/btnBuscarNumRegistro"
+        android:id="@+id/btnVisualizarBuscarNumRegistro"
         style="@style/btnLargoVerde"
         android:nestedScrollingEnabled="false"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:onClick="menuVisualizaInfo" />
 
 </LinearLayout>

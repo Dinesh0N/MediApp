@@ -198,6 +198,96 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.qiqeapps.mediapp.MenuDoctorPaciente" />
         </activity>
+        <activity
+            android:name=".atender_consultas"
+            android:label="@string/title_activity_atender_consultas"
+            android:parentActivityName=".MenuDoctorPaciente"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctorPaciente" />
+        </activity>
+        <activity
+            android:name=".Atender_Gineco"
+            android:label="@string/title_activity_atender__gineco"
+            android:parentActivityName=".MenuDoctorPaciente"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuDoctorPaciente" />
+        </activity>
+        <activity
+            android:name=".MenuVisualizarInfo"
+            android:label="@string/title_activity_menu_visualizar_info"
+            android:parentActivityName=".VisualizarPacienteBuscaRegistro"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.VisualizarPacienteBuscaRegistro" />
+        </activity>
+        <activity
+            android:name=".VisualizarInfoGral"
+            android:label="@string/title_activity_visualizar_info_gral"
+            android:parentActivityName=".MenuVisualizarInfo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuVisualizarInfo" />
+        </activity>
+        <activity
+            android:name=".VisualizarPatologicos"
+            android:label="@string/title_activity_visualizar_patologicos"
+            android:parentActivityName=".MenuVisualizarInfo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuVisualizarInfo" />
+        </activity>
+        <activity
+            android:name=".VisualizatNoPatologicos"
+            android:label="@string/title_activity_visualizat_no_patologicos"
+            android:parentActivityName=".MenuVisualizarInfo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuVisualizarInfo" />
+        </activity>
+        <activity
+            android:name=".VisualizarFamiliares"
+            android:label="@string/title_activity_visualizar_familiares"
+            android:parentActivityName=".MenuVisualizarInfo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuVisualizarInfo" />
+        </activity>
+        <activity
+            android:name=".VisualizaGinecos"
+            android:label="@string/title_activity_visualiza_ginecos"
+            android:parentActivityName=".MenuVisualizarInfo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuVisualizarInfo" />
+        </activity>
+        <activity
+            android:name=".VisualizarFisica"
+            android:label="@string/title_activity_visualizar_fisica"
+            android:parentActivityName=".MenuVisualizarInfo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuVisualizarInfo" />
+        </activity>
+        <activity
+            android:name=".VisualizarConsultas"
+            android:label="@string/title_activity_visualizar_consultas"
+            android:parentActivityName=".MenuVisualizarInfo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.MenuVisualizarInfo" />
+        </activity>
     </application>
 
 </manifest>

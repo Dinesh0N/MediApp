@@ -35,7 +35,7 @@ public class MenuDoctorPaciente extends AppCompatActivity {
     }
 
     public void btnGineco(View v){
-        Intent i = new Intent(this, RegistroNuevoGinecoObstetricos.class);
+        Intent i = new Intent(this, Atender_Gineco.class);
         startActivity(i);
     }
 
@@ -45,7 +45,7 @@ public class MenuDoctorPaciente extends AppCompatActivity {
     }
 
     public void btnConsultas(View v){
-        Intent i = new Intent(this, RegistroNuevoPacientes.class);
+        Intent i = new Intent(this, atender_consultas.class);
         startActivity(i);
     }
 

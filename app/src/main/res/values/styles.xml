@@ -43,6 +43,18 @@
         <item name="android:gravity">top</item>
     </style>
 
+    <style name="estiloTextEditMultiGris">
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">#f4f4f4</item>
+        <item name="android:ems">10</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:lines">5</item>
+        <item name="android:gravity">top</item>
+    </style>
+
     <style name="btnInicioSesion">
         <item name="android:paddingBottom">15dp</item>
         <item name="android:paddingTop">15dp</item>

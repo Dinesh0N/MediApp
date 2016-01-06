@@ -196,4 +196,15 @@
     <string name="title_activity_atender_nopatologicos">No Patológicos</string>
     <string name="title_activity_atender_exp_fisica">Exploración Física</string>
     <string name="title_activity_atender__select_btdev">Elegir dispositivo</string>
+    <string name="title_activity_atender_consultas">Consulta nueva</string>
+    <string name="title_activity_atender__gineco">Ginecológicos</string>
+    <string name="title_activity_visualiza__buscar_registro">Visualiza_BuscarRegistro</string>
+    <string name="title_activity_menu_visualizar_info">Consultar Historial</string>
+    <string name="title_activity_visualizar_info_gral">Informacion General</string>
+    <string name="title_activity_visualizar_patologicos">Historial Patológico</string>
+    <string name="title_activity_visualizat_no_patologicos">Historial No Patológicos</string>
+    <string name="title_activity_visualizar_familiares">Historial Familiar</string>
+    <string name="title_activity_visualiza_ginecos">Historial Ginecológico</string>
+    <string name="title_activity_visualizar_fisica">Historial Físico</string>
+    <string name="title_activity_visualizar_consultas">Historial de Consultas</string>
 </resources>

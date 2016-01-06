@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.qiqeapps.mediapp.VisualizarInfoGral"
+    tools:showIn="@layout/activity_visualizar_info_gral">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView17"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Informacion General del paciente"
+                android:id="@+id/textView24"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Nombre completo:"
+                android:id="@+id/textView45"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="textotexto"
+                android:id="@+id/txtGeneral_Nombre"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Sexo:"
+                android:id="@+id/textView47"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="textotexto"
+                android:id="@+id/txtGeneral_Sexo"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Fecha de nacimiento:"
+                android:id="@+id/textView48"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="textotexto"
+                android:id="@+id/txtGeneral_Nacimiento"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="CURP:"
+                android:id="@+id/textView49"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="textotexto"
+                android:id="@+id/txtGeneral_CURP"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Antecedentes Patológicos"
+                android:id="@+id/textView16"
+                android:textColor="#000000"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Enfermedades:"
+                android:id="@+id/textView46"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <EditText
+                style="@style/estiloTextEditMulti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtGeneral_Enfermedades"
+                android:backgroundTint="#f4f4f4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Medicamentos:"
+                android:id="@+id/textView50"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <EditText
+                style="@style/estiloTextEditMulti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtGeneral_Medicaments"
+                android:backgroundTint="#f4f4f4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Alergias:"
+                android:id="@+id/textView51"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <EditText
+                style="@style/estiloTextEditMulti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtGeneral_Alergias"
+                android:backgroundTint="#f4f4f4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Antecedentes Familiares"
+                android:id="@+id/textView42"
+                android:textColor="#000000"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="7dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtGeneral_Familiares"
+                style="@style/estiloTextEditMulti"
+                android:backgroundTint="#f4f4f4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Antecedentes Gineco-Obstétricos"
+                android:id="@+id/textView43"
+                android:textColor="#000000"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Menarquia:"
+                android:id="@+id/textView52"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="textotexto"
+                android:id="@+id/txtGeneral_Menarquia"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Ritmo:"
+                android:id="@+id/textView53"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="textotexto"
+                android:id="@+id/txtGeneral_Ritmo"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Anticonceptivos:"
+                android:id="@+id/textView54"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <EditText
+                style="@style/estiloTextEditMulti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtGeneral_Anticonceptivos"
+                android:backgroundTint="#f4f4f4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Problemas Hormonales:"
+                android:id="@+id/textView58"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <EditText
+                style="@style/estiloTextEditMulti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtGeneral_Hormonales"
+                android:backgroundTint="#f4f4f4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Antecedentes Físicos"
+                android:id="@+id/textView44"
+                android:textColor="#000000"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Peso:"
+                android:id="@+id/textView55"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="textotexto"
+                android:id="@+id/txtGeneral_Peso"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="IMC:"
+                android:id="@+id/textView56"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="textotexto"
+                android:id="@+id/txtGeneral_IMC"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Última frecuencia cardiaca:"
+                android:id="@+id/textView57"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="textotexto"
+                android:id="@+id/txtGeneral_FrecuenciaCardiaca"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
