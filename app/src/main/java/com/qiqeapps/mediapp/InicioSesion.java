@@ -35,7 +35,7 @@ public class InicioSesion extends AppCompatActivity {
             finish();
         }
         else if (txtUsuario.getText().toString().equals("paciente") && txtContrasena.getText().toString().equals("paciente")){
-            i = new Intent(this, MenuDoctorMain.class);
+            i = new Intent(this, PacienteMenuVisualizar.class);
             startActivity(i);
             finish();
         }

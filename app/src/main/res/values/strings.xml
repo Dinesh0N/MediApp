@@ -207,4 +207,12 @@
     <string name="title_activity_visualiza_ginecos">Historial Ginecológico</string>
     <string name="title_activity_visualizar_fisica">Historial Físico</string>
     <string name="title_activity_visualizar_consultas">Historial de Consultas</string>
+    <string name="title_activity_paciente_menu_visualizar">Menu Paciente</string>
+    <string name="title_activity_paciente_info_gral">Informacion General</string>
+    <string name="title_activity_paciente_patologicos">Patologicos</string>
+    <string name="title_activity_paciente_no_patologicos">No patologicos</string>
+    <string name="title_activity_pacient_familiares">Antecedentes Familiares</string>
+    <string name="title_activity_paciente_fisica">Historial Fisico</string>
+    <string name="title_activity_paciente_gineco">Historial Ginecologico</string>
+    <string name="title_activity_paciente_consultas">Historial de consultas</string>
 </resources>

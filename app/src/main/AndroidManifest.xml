@@ -288,6 +288,73 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.qiqeapps.mediapp.MenuVisualizarInfo" />
         </activity>
+        <activity
+            android:name=".PacienteMenuVisualizar"
+            android:label="@string/title_activity_paciente_menu_visualizar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".paciente_info_gral"
+            android:label="@string/title_activity_paciente_info_gral"
+            android:parentActivityName=".PacienteMenuVisualizar"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.PacienteMenuVisualizar" />
+        </activity>
+        <activity
+            android:name=".PacientePatologicos"
+            android:label="@string/title_activity_paciente_patologicos"
+            android:parentActivityName=".PacienteMenuVisualizar"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.PacienteMenuVisualizar" />
+        </activity>
+        <activity
+            android:name=".paciente_no_patologicos"
+            android:label="@string/title_activity_paciente_no_patologicos"
+            android:parentActivityName=".PacienteMenuVisualizar"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.PacienteMenuVisualizar" />
+        </activity>
+        <activity
+            android:name=".pacient_familiares"
+            android:label="@string/title_activity_pacient_familiares"
+            android:parentActivityName=".PacienteMenuVisualizar"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.PacienteMenuVisualizar" />
+        </activity>
+        <activity
+            android:name=".paciente_fisica"
+            android:label="@string/title_activity_paciente_fisica"
+            android:parentActivityName=".PacienteMenuVisualizar"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.PacienteMenuVisualizar" />
+        </activity>
+        <activity
+            android:name=".paciente_gineco"
+            android:label="@string/title_activity_paciente_gineco"
+            android:parentActivityName=".PacienteMenuVisualizar"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.PacienteMenuVisualizar" />
+        </activity>
+        <activity
+            android:name=".paciente_consultas"
+            android:label="@string/title_activity_paciente_consultas"
+            android:parentActivityName=".PacienteMenuVisualizar"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.qiqeapps.mediapp.PacienteMenuVisualizar" />
+        </activity>
     </application>
 
 </manifest>
